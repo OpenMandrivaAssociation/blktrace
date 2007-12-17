@@ -12,7 +12,6 @@ Source0: %{distname}.tar.bz2
 License: GPL
 Group: System/Kernel and hardware
 Url: http://git.kernel.org/?p=linux/kernel/git/axboe/blktrace.git;a=summary
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 blktrace is a block layer IO tracing mechanism which provides detailed
