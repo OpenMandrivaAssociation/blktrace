@@ -51,3 +51,18 @@ rm -rf %{buildroot}
 %{_mandir}/man1/verify_blkparse.1*
 %{_mandir}/man8/blktrace.8*
 %{_mandir}/man8/btrace.8*
+
+
+%changelog
+* Thu Dec 20 2007 Olivier Blin <oblin@mandriva.com> 0.99.2-1.20070730mdv2008.1
++ Revision: 135856
+- restore BuildRoot
+
+  + Thierry Vignaud <tvignaud@mandriva.com>
+    - kill re-definition of %%buildroot on Pixel's request
+
+* Sun Aug 12 2007 Olivier Blin <oblin@mandriva.com> 0.99.2-1.20070730mdv2008.0
++ Revision: 62377
+- initial package
+- Create blktrace
+
