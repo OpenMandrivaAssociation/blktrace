@@ -5,7 +5,7 @@ Release:	1
 Source0: http://brick.kernel.dk/snaps/blktrace-%{version}.tar.bz2
 License: GPL
 Group: System/Kernel and hardware
-Url: http://git.kernel.org/?p=linux/kernel/git/axboe/blktrace.git;a=summary
+Url: https://git.kernel.org/?p=linux/kernel/git/axboe/blktrace.git;a=summary
 BuildRequires: libaio-devel
 BuildRequires: make
 
